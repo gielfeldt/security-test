@@ -1,0 +1,20 @@
+{
+    "name": "thomas/security-test",
+    "authors": [
+        {
+            "name": "Thomas Gielfeldt",
+            "email": "thomas@gielfeldt.dk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "monolog/monolog": "^2.1",
+        "slim/slim": "^4.5",
+        "php-di/slim-bridge": "^3.0",
+        "slim/psr7": "^1.1"
+    }
+}
